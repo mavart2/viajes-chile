@@ -1,0 +1,146 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+  }
+
+
+body{
+    font-family: "Roboto", sans-serif;
+    background-color: #000000;
+    
+}
+.icono{
+    height: 15px;
+    align-content: center;
+    text-align: right;
+    color: ivory;
+}
+.iconors{
+    height: 35px;
+    align-content: center;
+    text-align: center;
+    
+    color: ivory;
+}
+hr {
+    border: none; 
+    border-top: 1px solid rgba(73, 235, 241, 0.3); /* Cambiado a rgba con 0.3 de transparencia */
+    height: 0; 
+    width: 92%;
+    margin: 20px auto 0 auto;
+    opacity: 1; /* Ajusta la opacidad según tus necesidades */
+}
+.verticalLine { border-left: thick solid #ff0000; 
+}
+
+
+
+.header .nav {
+    background-color: transparent !important;
+    position: fixed;
+    top: 0;
+  }
+.nav2{
+    color:white;
+    
+    
+
+}
+.container{
+    font: normal normal medium 50px/59px 'Cabin';
+    letter-spacing: 0px;
+    color: #141414;
+
+
+}
+
+
+.h1{
+    color: #ffffff;
+    font-family: "Roboto", sans-serif;
+    font-size: 20pt;
+    text-align:center;
+    padding-top: 0rem;
+   
+
+}
+h2{
+    color: #ffffff;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-size: 18pt;
+    text-align: left;
+    padding-right: 2rem;
+    padding-left: 0mm;
+    padding-bottom: 0rem;
+
+}
+.footer-new h2{
+    color: #ffffff;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-size: 18pt;
+    text-align: left;
+    padding-right: 2rem;
+    padding-left: 0mm;
+    padding-bottom: 0rem;
+
+}
+.h3{
+    color: #ffffff;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-size: 13pt;
+    text-align: left;
+    padding-right: 2rem;
+    padding-bottom: 0rem;
+
+}
+.h4{
+    color: #373a3c;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 10pt;
+    padding-bottom: 0rem;
+
+}
+.h5{
+    color: #000000;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 10pt;
+    padding-bottom: 0rem;
+
+}
+.link a {
+
+    color:white;
+    text-decoration: none;
+}
+.iconos{
+    font-size: 15px ;
+}
+.pie{
+    background-color: #2199a5;
+    align-content: unset;
+    padding-bottom: 0rem;
+}
+.card-img-top {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+@media (max-width: 767.98px) {
+    .footer-new h2 {
+        text-align: center !important;
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+        width: 100% !important;
+    }
+
+}
+
