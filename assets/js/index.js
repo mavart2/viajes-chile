@@ -1,5 +1,4 @@
 /* global jQuery, $ */
-
 jQuery(document).ready(function ($) {
     // 1. Inicializar todos los Tooltips de Bootstrap en la página
     $('[data-toggle="tooltip"]').tooltip();
